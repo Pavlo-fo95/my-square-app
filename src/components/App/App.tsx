@@ -1,12 +1,11 @@
 import React from 'react';
-import StyledButtonComponent from '../Square/StyledButton';  
+import StyledButtonComponent from '../Square/StyledButtonComponent';
 import './App.css';
 
 const App: React.FC = () => {
   return (
     <div className="App">
-      <StyledButtonComponent color="red" />
-      <StyledButtonComponent color="blue" />
+      <StyledButtonComponent />
     </div>
   );
 }
